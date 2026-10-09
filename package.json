@@ -1,0 +1,16 @@
+{
+  "name": "arabic-math-whiteboard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "سبورة رياضيات عربية ذكية (PWA) — المرحلة 1",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test \"tests/unit/*.test.mjs\"",
+    "test:e2e": "node tests/e2e/run.mjs",
+    "icons": "node scripts/make-icons.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "1.56.1"
+  }
+}
